@@ -20,7 +20,7 @@ s+=r(722,72,187,134,PANEL,LINE,8)+t(738,95,'ENGINEERING FOCUS',11,MUTED,650,'cla
 for i,(lab,col) in enumerate([('AUTOMATION',BLUE),('DELIVERY',GREEN),('RELIABILITY',PURPLE)]):
  y=121+i*27;s+=f'<circle cx="744" cy="{y-4}" r="4" fill="{col}"/>'+t(757,y,lab,12,WHITE,500,'class="mono"')
 s+='''<circle class="animated" cx="744" cy="117" r="7" fill="none" stroke="#58a6ff"><animate attributeName="r" values="5;13;5" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="2s" repeatCount="indefinite"/></circle><rect class="animated" x="129" y="72" width="8" height="15" fill="#3fb950"><animate attributeName="opacity" values="1;1;0;0;1" dur="1.5s" repeatCount="indefinite"/></rect>'''
-svg('hero.svg',260,s,'Armel Guezem Titio - DevOps, cloud infrastructure and SRE')
+svg('hero-v2-full-name.svg',260,s,'Armel Guezem Titio - DevOps, cloud infrastructure and SRE')
 # toolbox
 s=t(24,30,'01 / ENGINEERING TOOLBOX',13,BLUE,650,'class="mono"')+t(936,30,'LEARNING & HANDS-ON PRACTICE',12,MUTED,500,'text-anchor="end" class="mono"')
 for i,(title,items,col) in enumerate([('Systems',['Linux','Bash','Python','Git'],BLUE),('Delivery',['Docker','Kubernetes','Helm','GitHub Actions'],GREEN),('Cloud & IaC',['AWS','Azure','Terraform','OpenTofu'],PURPLE),('Reliability',['Observability','SLI / SLO','Incident response'], '#e3b341')]):
