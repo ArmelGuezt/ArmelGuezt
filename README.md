@@ -1,6 +1,5 @@
 <div align="center">
   <img src="assets/hero-v2-full-name.svg" width="960" alt="Armel Guezem Titio - DevOps, Cloud Infrastructure and SRE" />
-  <p><a href="https://github.com/ArmelGuezt?tab=repositories">Repositories</a> | <a href="https://github.com/ArmelGuezt?tab=overview">GitHub activity</a></p>
 </div>
 
 ## About me
@@ -18,22 +17,6 @@ I combine product thinking with hands-on engineering practice, focusing on infra
 ## Continuous delivery
 
 <img src="assets/pipeline.svg" width="960" alt="Reference lab workflow: Git, CI/CD, Docker, Kubernetes and SRE" />
-
-## Selected public projects
-
-| Repository | Area |
-| :--- | :--- |
-| [git-devops-automation](https://github.com/ArmelGuezt/git-devops-automation) | Git and DevOps automation |
-| [cicd-multiple-stages-and-dependencies](https://github.com/ArmelGuezt/cicd-multiple-stages-and-dependencies) | Multi-stage CI/CD pipelines |
-| [franka-braiding-salon](https://github.com/ArmelGuezt/franka-braiding-salon) | Web project |
-
-## GitHub activity
-
-<img src="assets/activity.svg" width="960" alt="Dated public repository statistics and recent commit sample; not lifetime contribution totals" />
-
-<a href="https://github.com/ArmelGuezt?tab=overview"><img src="assets/calendar.svg" width="960" alt="GitHub contribution calendar or explicit unavailable status; click to see the live profile" /></a>
-
-Statistics are dated and updated by GitHub Actions when enabled. Public repository metrics exclude private repository details. The calendar, when available, reflects GitHub's reported contribution visibility.
 
 ## Engineering roadmap
 
