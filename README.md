@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" width="960" alt="Armel Guezem Titio - DevOps, Cloud Infrastructure and SRE" />
+  <img src="assets/hero-v2-full-name.svg" width="960" alt="Armel Guezem Titio - DevOps, Cloud Infrastructure and SRE" />
   <p><a href="https://github.com/ArmelGuezt?tab=repositories">Repositories</a> | <a href="https://github.com/ArmelGuezt?tab=overview">GitHub activity</a></p>
 </div>
 
