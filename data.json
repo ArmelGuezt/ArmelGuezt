@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-26",
+  "source": "connector",
+  "repos": [
+    {"name": "git-devops-automation", "recent_commits": 6},
+    {"name": "cicd-multiple-stages-and-dependencies", "recent_commits": 2},
+    {"name": "franka-braiding-salon", "recent_commits": 2}
+  ],
+  "stars": null,
+  "calendar": null
+}
