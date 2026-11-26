@@ -15,12 +15,12 @@ def svg(name,h,content,desc):
 # hero
 s='''<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#263747" opacity=".45" fill="none"/></pattern><clipPath id="edge"><rect x="1" y="1" width="958" height="258" rx="12"/></clipPath><linearGradient id="beam"><stop stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#58a6ff" stop-opacity=".13"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient></defs><g clip-path="url(#edge)"><rect x="1" y="1" width="958" height="258" fill="url(#grid)"/><rect class="animated" x="-180" y="1" width="180" height="258" fill="url(#beam)"><animate attributeName="x" from="-180" to="960" dur="8s" repeatCount="indefinite"/></rect></g>'''
 s+=r(24,24,912,212,BG,LINE,10)+''.join(f'<circle cx="{42+i*15}" cy="42" r="4" fill="{c}"/>' for i,c in enumerate(['#f85149','#e3b341',GREEN]))
-s+=t(99,47,'armelguezt@engineering:~',12,MUTED,500,'class="mono"')+t(48,85,'$ whoami',15,GREEN,600,'class="mono"')+t(46,137,'ARMEL GUEZT',49,WHITE,750)+t(48,168,'DEVOPS / CLOUD INFRASTRUCTURE / SRE',16,BLUE,650,'class="mono"')+t(48,202,'Build. Automate. Scale. Keep it reliable.',16,MUTED)
+s+=t(99,47,'armelguezt@engineering:~',12,MUTED,500,'class="mono"')+t(48,85,'$ whoami',15,GREEN,600,'class="mono"')+t(46,137,'Armel Guezem Titio',46,WHITE,750)+t(48,168,'DEVOPS / CLOUD INFRASTRUCTURE / SRE',16,BLUE,650,'class="mono"')+t(48,202,'Build. Automate. Scale. Keep it reliable.',16,MUTED)
 s+=r(722,72,187,134,PANEL,LINE,8)+t(738,95,'ENGINEERING FOCUS',11,MUTED,650,'class="mono"')
 for i,(lab,col) in enumerate([('AUTOMATION',BLUE),('DELIVERY',GREEN),('RELIABILITY',PURPLE)]):
  y=121+i*27;s+=f'<circle cx="744" cy="{y-4}" r="4" fill="{col}"/>'+t(757,y,lab,12,WHITE,500,'class="mono"')
 s+='''<circle class="animated" cx="744" cy="117" r="7" fill="none" stroke="#58a6ff"><animate attributeName="r" values="5;13;5" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="2s" repeatCount="indefinite"/></circle><rect class="animated" x="129" y="72" width="8" height="15" fill="#3fb950"><animate attributeName="opacity" values="1;1;0;0;1" dur="1.5s" repeatCount="indefinite"/></rect>'''
-svg('hero.svg',260,s,'Armel Guezt - DevOps, cloud infrastructure and SRE')
+svg('hero.svg',260,s,'Armel Guezem Titio - DevOps, cloud infrastructure and SRE')
 # toolbox
 s=t(24,30,'01 / ENGINEERING TOOLBOX',13,BLUE,650,'class="mono"')+t(936,30,'LEARNING & HANDS-ON PRACTICE',12,MUTED,500,'text-anchor="end" class="mono"')
 for i,(title,items,col) in enumerate([('Systems',['Linux','Bash','Python','Git'],BLUE),('Delivery',['Docker','Kubernetes','Helm','GitHub Actions'],GREEN),('Cloud & IaC',['AWS','Azure','Terraform','OpenTofu'],PURPLE),('Reliability',['Observability','SLI / SLO','Incident response'], '#e3b341')]):
